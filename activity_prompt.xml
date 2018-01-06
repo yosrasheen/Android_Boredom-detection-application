@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtVAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Age category" />
+
+    <RadioGroup
+        android:id="@+id/radioAge"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioBelow20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Below 20" />
+
+        <RadioButton
+            android:id="@+id/radio20to30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Between 20 and 30" />
+
+        <RadioButton
+            android:id="@+id/radio30to40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Between 30 and 40" />
+
+        <RadioButton
+            android:id="@+id/radio40to50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Between 40 and 50" />
+
+        <RadioButton
+            android:id="@+id/radioAbove50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Above 50" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtVSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your Gender" />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start using the app" />
+
+</LinearLayout>
+
+
