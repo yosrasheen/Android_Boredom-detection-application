@@ -14,4 +14,5 @@ Age
 Gender
 the collected data is based to a calssifier which is based on machine learning 
 Phase 1 of the project is used to collect the data and to train the classifier. 
-The second phase of the project is used as the production application that collects the data and show interesting articles if boredom is detected
+The project is used as the production application that collects the data and show interesting articles if boredom is detected
+CNN classifier is used based on java
